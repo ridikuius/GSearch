@@ -88,7 +88,7 @@ public class DictionaryAnalyzer {
         }
     }
 
-    private static List<String> seg(String text) {
+    public static List<String> seg(String text) {
         List<String> result = new ArrayList<>();
         while (text.length() > 0) {
             int len = MAXNUM;
