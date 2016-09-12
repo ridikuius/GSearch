@@ -195,7 +195,7 @@ public void testGetSibling() throws Exception {
 
 /** 
 * 
-* Method: setSibling(TrieNode sibling) 
+* Method: setSibling(TrieNode2 sibling)
 * 
 */ 
 @Test
@@ -235,7 +235,7 @@ public void testGetChildIfNotExistThenCreate() throws Exception {
 
 /** 
 * 
-* Method: addChild(TrieNode child) 
+* Method: addChild(TrieNode2 child)
 * 
 */ 
 @Test
@@ -276,7 +276,7 @@ try {
 
 /** 
 * 
-* Method: addRootNode(TrieNode rootNode) 
+* Method: addRootNode(TrieNode2 rootNode)
 * 
 */ 
 @Test
@@ -284,7 +284,7 @@ public void testAddRootNode() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
-   Method method = Dictionary.getClass().getMethod("addRootNode", TrieNode.class); 
+   Method method = Dictionary.getClass().getMethod("addRootNode", TrieNode2.class);
    method.setAccessible(true); 
    method.invoke(<Object>, <Parameters>); 
 } catch(NoSuchMethodException e) { 
@@ -316,7 +316,7 @@ try {
 
 /** 
 * 
-* Method: show(TrieNode node, String indent) 
+* Method: show(TrieNode2 node, String indent)
 * 
 */ 
 @Test
@@ -324,7 +324,7 @@ public void testShow() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
-   Method method = Dictionary.getClass().getMethod("show", TrieNode.class, String.class); 
+   Method method = Dictionary.getClass().getMethod("show", TrieNode2.class, String.class);
    method.setAccessible(true); 
    method.invoke(<Object>, <Parameters>); 
 } catch(NoSuchMethodException e) { 
@@ -336,7 +336,7 @@ try {
 
 /** 
 * 
-* Method: insert(TrieNode[] array, TrieNode element) 
+* Method: insert(TrieNode2[] array, TrieNode2 element)
 * 
 */ 
 @Test
@@ -344,7 +344,7 @@ public void testInsert() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
-   Method method = Dictionary.getClass().getMethod("insert", TrieNode[].class, TrieNode.class); 
+   Method method = Dictionary.getClass().getMethod("insert", TrieNode2[].class, TrieNode2.class);
    method.setAccessible(true); 
    method.invoke(<Object>, <Parameters>); 
 } catch(NoSuchMethodException e) { 
