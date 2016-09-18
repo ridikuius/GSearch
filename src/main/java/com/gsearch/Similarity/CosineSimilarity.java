@@ -3,7 +3,7 @@ package com.gsearch.Similarity;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
-import com.gsearch.index.DictionaryAnalyzer;
+import com.gsearch.Analyzer.DictionaryAnalyzer;
 
 import java.math.BigDecimal;
 import java.util.*;
